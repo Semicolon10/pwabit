@@ -19,9 +19,13 @@
     "@angular/platform-browser": "~10.2.4",
     "@angular/platform-browser-dynamic": "~10.2.4",
     "@angular/router": "~10.2.4",
+    "@angular/service-worker": "~10.2.4",
+    "http-server": "^0.12.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "@bit/valor-software.ngx-bootstrap.popover": "file:./components/popover",
+    "@bit/austinhenderson19.mobile-components.btn": "file:./components/btn"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1002.1",
@@ -42,5 +46,10 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }

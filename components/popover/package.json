@@ -1,0 +1,51 @@
+{
+  "name": "@bit/valor-software.ngx-bootstrap.popover",
+  "version": "5.1.1",
+  "homepage": "https://bit.dev/valor-software/ngx-bootstrap/popover",
+  "main": "dist/popover/bundles/bit-popover.umd.js",
+  "componentId": {
+    "scope": "valor-software.ngx-bootstrap",
+    "name": "popover",
+    "version": "5.1.1"
+  },
+  "dependencies": {
+    "@bit/valor-software.ngx-bootstrap.utils": "5.1.1",
+    "@bit/valor-software.ngx-bootstrap.internal.component-loader": "5.1.1",
+    "@bit/valor-software.ngx-bootstrap.internal.positioning": "5.1.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": ">=7.0.0",
+    "@angular/core": ">=7.0.0",
+    "@angular/forms": "^8.0.0",
+    "@angular/animations": "^8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.1.7"
+    },
+    "overrides": {
+      "dependencies": {
+        "@angular/forms": "-",
+        "@angular/animations": "-"
+      },
+      "peerDependencies": {
+        "@angular/forms": "^8.0.0",
+        "@angular/animations": "^8.0.0"
+      }
+    },
+    "resolveAliases": {
+      "ngx-bootstrap/utils": "@bit/valor-software.ngx-bootstrap.utils",
+      "ngx-bootstrap/component-loader": "@bit/valor-software.ngx-bootstrap.internal.component-loader",
+      "ngx-bootstrap/positioning": "@bit/valor-software.ngx-bootstrap.internal.positioning"
+    }
+  },
+  "es2015": "dist/popover/fesm2015/bit-popover.js",
+  "esm5": "dist/popover/esm5/bit-popover.js",
+  "esm2015": "dist/popover/esm2015/bit-popover.js",
+  "fesm5": "dist/popover/fesm5/bit-popover.js",
+  "fesm2015": "dist/popover/fesm2015/bit-popover.js",
+  "module": "dist/popover/fesm5/bit-popover.js",
+  "typings": "dist/popover/bit-popover.d.ts"
+}

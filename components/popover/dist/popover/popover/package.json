@@ -1,0 +1,16 @@
+{
+  "name": "@bit/valor-software.ngx-bootstrap.popover/popover",
+  "version": "5.1.1",
+  "description": "Native Angular Bootstrap Components",
+  "private": true,
+  "main": "../bundles/bit-popover-popover.umd.js",
+  "module": "../fesm5/bit-popover-popover.js",
+  "es2015": "../fesm2015/bit-popover-popover.js",
+  "esm5": "../esm5/popover/bit-popover-popover.js",
+  "esm2015": "../esm2015/popover/bit-popover-popover.js",
+  "fesm5": "../fesm5/bit-popover-popover.js",
+  "fesm2015": "../fesm2015/bit-popover-popover.js",
+  "typings": "bit-popover-popover.d.ts",
+  "metadata": "bit-popover-popover.metadata.json",
+  "sideEffects": false
+}

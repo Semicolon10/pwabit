@@ -1,0 +1,31 @@
+{
+  "name": "@bit/austinhenderson19.mobile-components.btn",
+  "version": "1.0.0",
+  "homepage": "https://bit.dev/austinhenderson19/mobile-components/btn",
+  "main": "dist/btn/bundles/bit-austinhenderson19.mobile-components.btn.umd.js",
+  "componentId": {
+    "scope": "austinhenderson19.mobile-components",
+    "name": "btn",
+    "version": "1.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "10.2.0",
+    "@angular/core": "10.2.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015": "dist/btn/fesm2015/bit-austinhenderson19.mobile-components.btn.js",
+  "esm5": "dist/btn/esm5/bit-austinhenderson19.mobile-components.btn.js",
+  "esm2015": "dist/btn/esm2015/bit-austinhenderson19.mobile-components.btn.js",
+  "fesm5": "dist/btn/fesm5/bit-austinhenderson19.mobile-components.btn.js",
+  "fesm2015": "dist/btn/fesm2015/bit-austinhenderson19.mobile-components.btn.js",
+  "module": "dist/btn/fesm5/bit-austinhenderson19.mobile-components.btn.js",
+  "typings": "dist/btn/bit-austinhenderson19.mobile-components.btn.d.ts",
+  "metadata": "dist/bit-austinhenderson19.mobile-components.btn.metadata.json"
+}
